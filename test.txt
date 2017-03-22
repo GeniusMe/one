@@ -1,0 +1,29 @@
+<html>
+<head>
+
+  <script>
+       var a=Math.floor(Math.random()*100);
+       document.write("your random number: "+a);
+       function d(){
+       var myvalue=document.getElementById('c').value;
+
+       if(myvalue.length==0) {
+       alert("please input a real value");
+       return;
+       
+     }
+        var mytitle=document.getElementById('title').value;
+        mytitle.innerHTML=myvalue;
+}
+  </script>
+
+</head>
+
+<body>
+<h1 id="title">dhanush</h1>
+<input type="text" id="c"
+/>
+<input type="submit" value="click me" onclick="d()"/><h1>hello mengo,</h1>
+</body>
+
+</html>
